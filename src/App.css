@@ -19,3 +19,27 @@
   --smallestFontSize: .75rem;
 
 }
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  width: 100%;
+  height: auto;
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: .8rem 1rem;
+  font-weight: 600;
+
+}
