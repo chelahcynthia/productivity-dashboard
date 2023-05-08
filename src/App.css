@@ -1,0 +1,10 @@
+/* fonts to use */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0s ease;
+  background: #2d3a21;
+}
