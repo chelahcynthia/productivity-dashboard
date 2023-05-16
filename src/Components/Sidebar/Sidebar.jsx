@@ -3,7 +3,9 @@ import './Sidebar.css';
 
 function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <div className='sidebar'>
+     <div className="logoDiv flex"></div>
+      </div>
   )
 }
 
