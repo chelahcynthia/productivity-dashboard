@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box;
   transition: 0s ease;
-  background: #2d3a21;
+  /* background: #2d3a21; */
 }
 
 /* sizing the project */
@@ -42,4 +42,14 @@ img{
   padding: .8rem 1rem;
   font-weight: 600;
 
+}
+.container{
+  position: relative;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+  overflow: hidden;
 }
