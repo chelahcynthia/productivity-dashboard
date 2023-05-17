@@ -1,10 +1,10 @@
 import React from "react";
 import "./Sidebar.css";
 
+import HomeIcon from "../../Icons/icons8-home-32.png";
+import SalesIcon from "../../Icons/icons8-total-sales-24.png";
+import AnalyticsIcon from "../../Icons/icons8-download-graph-report-80.png";
 
-import HomeIcon from "../../Icons/icons8-home-32.png"
-import SalesIcon from "../../Icons/icons8-total-sales-24.png"
-import AnalyticsIcon from "../../Icons/icons8-download-graph-report-80.png"
 function Sidebar() {
   return (
     <div className="sidebar">
