@@ -1,55 +1,38 @@
-/* fonts to use */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400&display=swap');
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  transition: 0s ease;
-  /* background: #2d3a21; */
+/* .App {
+  text-align: center;
 }
 
-/* sizing the project */
-:root{
-  --h1FontSize: 2.5rem;
-  --h2FontSize: 1.25rem;
-  --h3FontSize: 1rem;
-  --normalFontSize: .94rem;
-  --smallFontSize: .81rem;
-  --smallestFontSize: .75rem;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-a{
-  text-decoration: none;
-}
-li{
-  list-style: none;
-}
-img{
-  width: 100%;
-  height: auto;
 
-}
-.flex{
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-}
-.btn{
-  border: none;
-  outline: none;
-  cursor: pointer;
-  border-radius: 8px;
-  padding: .8rem 1rem;
-  font-weight: 600;
-
-}
-.container{
-  position: relative;
-  width: 100vw;
-  height: 95vh;
-  display: flex;
-  align-items: flex-start;
   justify-content: center;
-  padding: 2rem 1rem;
-  overflow: hidden;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
