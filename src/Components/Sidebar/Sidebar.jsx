@@ -19,7 +19,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div>
-        <p style={{ textAlign: "start" }}>Dashboard</p>
+        <p style={{ textAlign: "start", color:"#A5A1A1" , marginLeft:15 }}>Dashboard</p>
         <ul>
           <li>
             <img className="logoImage" src={`${HomeIcon}`} alt="" />
@@ -37,7 +37,7 @@ function Sidebar() {
       </div>
 
       <div>
-        <p style={{ textAlign: "start" }}>Quick Menu</p>
+        <p style={{ textAlign: "start", color:"#A5A1A1" , marginLeft:15 }}>Quick Menu</p>
         <ul>
           <li>
             <img className="logoImage" src={`${UserIcons}`} alt="" />
