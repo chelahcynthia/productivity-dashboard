@@ -1,5 +1,20 @@
 .navbar{
-    flex: 5;
+    background-color: #2D3435;
+    
+    width: 100%;
+}
+.navbarIcons{
+    width: 21px;
+    height: 21px;
+    margin-left: 12px;
+}
 
+.subnavbar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
 
+    
 }

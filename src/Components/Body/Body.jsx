@@ -6,12 +6,15 @@ import Navbar from "../Navbar/Navbar";
 
 function Body() {
   return (
-    <div>
-      <div className="mainHeaderContainer">
+    
+      <div className="Container">
         <Sidebar />
+        <div className="main">
+
         <Navbar />
+        </div>
       </div>
-    </div>
+    
   );
 }
 
