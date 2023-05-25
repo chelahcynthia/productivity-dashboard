@@ -15,12 +15,13 @@ import NewProductIcon from "../../Icons/icons8-new-product-53.png";
 import ManageIcon from "../../Icons/icons8-request-service-50.png";
 import OrderIcons from "../../Icons/icons8-purchase-order-24.png";
 
+
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div>
-        <p style={{ textAlign: "start", color:"#A5A1A1" , marginLeft:15 }}>Dashboard</p>
-        <ul>
+      <div className="dashboard">
+        <p style={{  color:"#A5A1A1"}}>Dashboard</p>
+        <ul className="sidebar-links">
           <li>
             <img className="logoImage" src={`${HomeIcon}`} alt="" />
             <a href="">Home</a>
@@ -36,9 +37,9 @@ function Sidebar() {
         </ul>
       </div>
 
-      <div>
-        <p style={{ textAlign: "start", color:"#A5A1A1" , marginLeft:15 }}>Quick Menu</p>
-        <ul>
+      <div className="quickmenu">
+        <p style={{  color:"#A5A1A1" }}>Quick Menu</p>
+        <ul className="sidebar-links">
           <li>
             <img className="logoImage" src={`${UserIcons}`} alt="" />
             <a href="">User</a>
@@ -79,11 +80,11 @@ function Sidebar() {
           </li>
         </ul>
       </div>
-      <div>
-        <p style={{ textAlign: "start", color: "#A5A1A1", marginLeft: 15 }}>
+      <div className="notifications">
+        <p style={{color: "#A5A1A1"}}>
           Notifications
         </p>
-        <ul>
+        <ul className="sidebar-links">
           <li>
             <img src={`${ManageIcon}`} className="logoImage" alt="" />
             <a href="/">Manage</a>

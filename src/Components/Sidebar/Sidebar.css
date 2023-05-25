@@ -1,6 +1,6 @@
 .sidebar{
-    flex: 1;
-    background-color: aqua;
+   
+    background-color:black;
     position: sticky;
     /* overflow-y: scroll; */
     height: 100vh;
@@ -8,29 +8,46 @@
     min-width: 200px;
 
 }
+.dashboard, .quickmenu,.notifications{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 5px;
+
+}
+
+.sidebar-links{
+    padding-left: 5px;
+    list-style-type:  none;
+    
+    
+}
+.sidebar-links > li{
+height: 100%;
+display: flex;
+align-items: center;
+padding: 3px 0;
+}
+.sidebar-links > li > a{
+    color: white;
+}
+
+
 ::-webkit-scrollbar{
     width: 5px;
 }
+
 ::-webkit-scrollbar-track{
     background-color: rgb(171, 164, 164);
 }
+
 ::-webkit-scrollbar-thumb{
     background-color: #8f8d8d;
 }
 
 
 
-li{
-    list-style: none;
-    text-align: start;
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
+
+
 
 .logoImage{
     width: 20px;
